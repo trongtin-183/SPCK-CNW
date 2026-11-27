@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php 
+        echo "hello";
+        $con = new mysqli("localhost", "root", "", "tai_khoannnn") or die("không kết nối được")
+    ?>
 </body>
 </html>
